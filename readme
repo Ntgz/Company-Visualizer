@@ -1,0 +1,16 @@
+backend:
+1)pip install virtualenv  
+2)virtualenv -p python env 
+3).\env\Scripts\activate
+4)pip install django(dentro del entorno)      
+5)python.exe -m pip install --upgrade pip
+6)django-admin startproject empresas
+7)django-admin startapp api
+8)registrar api en installedapps y configurar databases
+9)pip install mysqlclient
+10)python manage.py migrate
+11)python manage.py createsuperuser (acceder al panel)
+12)python manage.py makemigrations
+13)python manage.py migrate
+14)crear vistas
+15)crear archivo urls
