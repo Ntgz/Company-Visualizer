@@ -6,7 +6,7 @@ backend:
 5)python.exe -m pip install --upgrade pip
 6)django-admin startproject empresas
 7)django-admin startapp api
-8)registrar api en installedapps y configurar databases
+8)registrar api en installedapps y configurar databases admin.site.register(Company)
 9)pip install mysqlclient
 10)python manage.py migrate
 11)python manage.py createsuperuser (acceder al panel)
@@ -14,3 +14,6 @@ backend:
 13)python manage.py migrate
 14)crear vistas
 15)crear archivo urls
+16)insertar api en archivo urls
+17)llenar vistas
+18)importar dispatch ya que no esta serializado a json
