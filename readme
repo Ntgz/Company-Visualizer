@@ -17,3 +17,7 @@ backend:
 16)insertar api en archivo urls
 17)llenar vistas
 18)importar dispatch ya que no esta serializado a json
+19)pip install django-cors-headers
+20)escribir en installed apps ="'corsheaders'" y en middleware="'corsheaders.middleware.CorsMiddleware', y luego añador esto "CORS_ORIGIN_WHITELIST = (
+    'http://localhost:3000',
+)"
