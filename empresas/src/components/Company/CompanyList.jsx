@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 import * as CompanyServer from './CompanyServer';
+import CompanyItem from "./CompanyItem";
+
 const CompanyList = () => {
     const [companies,setCompanies] = useState([]);
     const listCompanies= async() =>{
@@ -18,9 +20,9 @@ const CompanyList = () => {
     return(
         <>
 
-            <div>
+            <div className="row">
                 {companies.map((company)=>(
-                    <h2>{company.name}</h2>
+                    <CompanyItem key={company.id} company={company}/>
                 ))}
             </div>
 
