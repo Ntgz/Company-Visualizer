@@ -21,3 +21,5 @@ backend:
 20)escribir en installed apps ="'corsheaders'" y en middleware="'corsheaders.middleware.CorsMiddleware', y luego añador esto "CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
 )"
+21)empezar a customizar el front
+22) instalar "npm i react-router-dom"
