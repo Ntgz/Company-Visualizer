@@ -5,7 +5,7 @@ backend:
 4)pip install django(dentro del entorno)      
 5)python.exe -m pip install --upgrade pip
 6)django-admin startproject empresas
-7)django-admin startapp api
+7)entrar a empresas e iniciar django-admin startapp api
 8)registrar api en installedapps y configurar databases admin.site.register(Company)
 9)pip install mysqlclient
 10)python manage.py migrate
