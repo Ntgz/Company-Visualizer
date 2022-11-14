@@ -7,7 +7,7 @@ backend:
 5)python.exe -m pip install --upgrade pip
 6)django-admin startproject empresas
 7)entrar a empresas e iniciar django-admin startapp api
-8)registrar api en installedapps y configurar databases admin.site.register(Company)
+8)registrar api en installedapps y configurar databases en la carpeta admin admin.site.register(Company)
 9)pip install mysqlclient
 10)python manage.py migrate
 11)python manage.py createsuperuser (acceder al panel)
@@ -24,3 +24,4 @@ backend:
 )"
 21)empezar a customizar el front
 22) instalar "npm i react-router-dom"
+23) run back python manage.py runserver- run front npm run dev
